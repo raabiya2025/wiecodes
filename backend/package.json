@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "exif-parser": "^0.1.12",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.0",
+    "multer": "^2.0.2"
+  }
+}

@@ -1,6 +1,13 @@
+
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Upload from "./pages/upload";
 import Home from "./pages/home";
+
+
 import Login from "./pages/login";
+
+
 import Dashboard from "./pages/dashboard";
 import ReportIssue from "./pages/reportissue";
 import IssueStatus from "./pages/issuestatus";
@@ -13,6 +20,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/upload" element={<Upload />} />
+
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/report" element={<ReportIssue />} />
